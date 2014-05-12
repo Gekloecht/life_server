@@ -4,6 +4,7 @@ __CONST__(LIFE_SCHEMA_NAME,"'housing'");//CHANGE THIS IF YOUR DATABASE IS NOT CA
 publicVariable "LIFE_SCHEMA_NAME";
 
 [] execVM "\life_server\fn_initHC.sqf";
+[] execVM "\life_server\initHousing.sqf";
 
 life_radio_west = radioChannelCreate [[0, 0.95, 1, 0.8], "Side Channel", "%UNIT_NAME", []];
 life_radio_civ = radioChannelCreate [[0, 0.95, 1, 0.8], "Side Channel", "%UNIT_NAME", []];

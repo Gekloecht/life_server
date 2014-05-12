@@ -147,6 +147,22 @@ class CfgFunctions
 			class clientDisconnect {};
 		};
 	};
+	class BRUUUDIS_System {
+
+        tag = "BRUUUDIS";       
+        class Bruuudis
+        {
+            file = "\life_server\Functions\BRUUUDIS";
+            class add {};
+            class query {};
+            class deleteHouse {};
+            class insertHouse {};
+            class queryHouses {};
+            class queryPlayerHouses {};
+            class updateHouseStorage {};
+            class updateHouseWeaponStorage {};
+        };
+    };
 };
 
 class CfgVehicles
